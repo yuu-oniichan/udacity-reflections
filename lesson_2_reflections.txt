@@ -1,10 +1,16 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	When you initialize a repository, git will create a hidden direction containing all the metadata on the files. This is necessary for git to track files and set up a file history.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	The staging area allows control over what files are included in each commit and the overall repository. It allows finer control as well, in case there are multiple changes, and some of which could later be branched off.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	The staging area allows you to separate out different files and changes by file, to ensure that you are committing only one logical step at a time. By allowing easy tracking of changes between the working and staging areas and the repository (and multiple commits), the level of control makes it easier to ensure that this happens.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
