@@ -26,5 +26,9 @@ the diagram the way we do?
 
 	The result of merging two branches together is the sum of their parts together. We represent it as two branches meeting to become one because that is exactly what occurs. Using the logic of 3 versions, we can guesstimate the changes that should be added and removed, except for the stuff that will be covered when we have merge conflicts.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Git's automatic merging can help save a lot of time and headaches on merging code from different branches, but it can also create a lot of issues when people are modifying the same sections of code, or adding redundent features.
+
+	Merging manually however, is required in many of these conflict cases as otherwise the comptuer could make a mess even worse, or just program itself.
