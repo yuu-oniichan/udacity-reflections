@@ -19,8 +19,12 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+	The diagrams are extremely helpful in picturing the current status of the master and other branches. They show where projects have diverged and where they can be combined.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+	The result of merging two branches together is the sum of their parts together. We represent it as two branches meeting to become one because that is exactly what occurs. Using the logic of 3 versions, we can guesstimate the changes that should be added and removed, except for the stuff that will be covered when we have merge conflicts.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
