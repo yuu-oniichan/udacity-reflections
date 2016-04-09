@@ -32,4 +32,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Making changes in a separate branch is cleaner when dealing with code that is about adding new features or experimenting with existing code. It allows rapid prototyping of features and the ability to test these builds while others work on the main program (eg. bug fixing). The disadvantage is the extra steps required to complete a pull request into the master branch.
+
+    Working on the master branch directly allows for easier push/pull commits, but in turn you're likely to run into complex merge issues if others are working on that exact section of code as well. The advantages of this would be better afforded for fixing codes that fewer people are working on, or fixing existing bugs, rather than adding entire new features that may break other people's codes.
