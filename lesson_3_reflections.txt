@@ -25,7 +25,9 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I might collaborate using google docs or email. Google Docs has a built-in revision history, which allows me to see changes that other people have made, but because it doesn't create manual checkpoints or step-by-step commits for each change, it will make it more difficult to comment on each individual change. 
+
+    Similarly, using email to send text files might make it easier to create manual checkpoints, but the lack of a revision history and a changelog will require me to find another way to compare changes. Merging and version control will also be a lot more difficult.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
