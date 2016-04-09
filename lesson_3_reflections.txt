@@ -20,7 +20,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    By having the last known statue of the remote stored locally, it would result in a similar situation to calling git merge, where there are three versions to check for merging changes. Incidentally, it also allows offline access, but the main point is to have a 3rd perspective from which to triangulate changes on.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
